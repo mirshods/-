@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- <script>
+        location.reload();
+        </script> -->
+</head>
+<body>
+    <header class="container">
+       
+        <p class="between">(1 dan 20 gacha son kiriting!)</p>
+        <button class="btn again" onclick="restart()">Qayta urinish!</button>
+       
+    </header>
+    <div class="container">
+    <h1>Raqam O'yladim...</h1>
+    <div class="number">     
+         <p class="star" id="keyNumber">?</p> 
+        </div>
+    </div>
+    
+<div class="container">
+    <input id="number" class="guess"  type="number" onChange="checkNumber()" required autocomplete="off">
+</div>
+<div class="container">
+    <button class="check" id="test" onclick="getData()">Tekshirish!</button>
+</div>
+
+<div class="container">
+    <p class="elemen" id="message">
+        💯 Qolgan urinish: 3</p>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+</html>
